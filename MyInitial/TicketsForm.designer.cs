@@ -38,6 +38,7 @@
             this.radBox = new System.Windows.Forms.RadioButton();
             this.grpSection = new System.Windows.Forms.GroupBox();
             this.cmdCalculate = new System.Windows.Forms.Button();
+            this.chkChild = new System.Windows.Forms.CheckBox();
             this.radBack = new System.Windows.Forms.RadioButton();
             this.grpSection.SuspendLayout();
             this.SuspendLayout();
@@ -151,6 +152,17 @@
             this.cmdCalculate.UseVisualStyleBackColor = true;
             this.cmdCalculate.Click += new System.EventHandler(this.cmdCalculate_Click);
             // 
+            // chkChild
+            // 
+            this.chkChild.AutoSize = true;
+            this.chkChild.Location = new System.Drawing.Point(509, 181);
+            this.chkChild.Margin = new System.Windows.Forms.Padding(6);
+            this.chkChild.Name = "chkChild";
+            this.chkChild.Size = new System.Drawing.Size(93, 29);
+            this.chkChild.TabIndex = 11;
+            this.chkChild.Text = "Child";
+            this.chkChild.UseVisualStyleBackColor = true;
+            // 
             // radBack
             // 
             this.radBack.AutoSize = true;
@@ -166,6 +178,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(1216, 856);
+            this.Controls.Add(this.chkChild);
             this.ClientSize = new System.Drawing.Size(1216, 856);
             this.Controls.Add(this.cmdCalculate);
             this.Controls.Add(this.grpSection);
@@ -197,6 +211,7 @@
         private System.Windows.Forms.RadioButton radBox;
         private System.Windows.Forms.GroupBox grpSection;
         private System.Windows.Forms.Button cmdCalculate;
+        private System.Windows.Forms.CheckBox chkChild;
         private System.Windows.Forms.RadioButton radBack;
     }
 }
